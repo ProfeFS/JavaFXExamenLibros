@@ -11,5 +11,7 @@ public interface BookDao {
 	void insertBook(Book book) throws SQLException;
 
 	void updateBook(Book book) throws SQLException;
+	
+	List<Book> getBooksByCategory(String category) throws SQLException;
 
 }
