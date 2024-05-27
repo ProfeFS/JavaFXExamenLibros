@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+    <spacing>10</spacing>
+    <Label text="Seleccione una categoría de libros:" />
+    <RadioButton fx:id="rbFiction" text="Fiction">
+      <toggleGroup>
+         <ToggleGroup fx:id="categories" />
+      </toggleGroup></RadioButton>
+    <RadioButton fx:id="rbRomance" text="Romance" toggleGroup="$categories" />
+    <RadioButton fx:id="rbClassic" text="Classic" toggleGroup="$categories" />
+    <Button text="Ver Libros" />
+</VBox>

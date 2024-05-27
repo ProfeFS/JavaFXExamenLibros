@@ -1,0 +1,6 @@
+edu\examen\javafx\dao\BookDao.class
+edu\examen\javafx\service\BookService.class
+edu\examen\javafx\modelo\Book.class
+edu\examen\javafx\utils\DatabaseConnection.class
+edu\examen\javafx\application\App.class
+edu\examen\javafx\controller\BookController.class
